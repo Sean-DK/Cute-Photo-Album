@@ -7,7 +7,6 @@ import { Component, OnChanges, Input } from '@angular/core';
     styleUrls: ['./gallery.component.css']
 })
 export class GalleryComponent implements OnChanges{
-    title = 'Recent Photos';
     @Input() filterBy?: string = 'all';
     visibleImages: any[] = [];
     constructor (private ImageService: ImageService) {

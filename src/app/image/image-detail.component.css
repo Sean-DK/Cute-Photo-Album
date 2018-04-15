@@ -1,10 +1,10 @@
 .img-container {
-    margin: 24px;
+    padding: 0px 0px 10px 0px;
+    text-align: center;
+}
+
+img {
     box-shadow: #555 1px 2px 8px 1px;
-    min-height: 660px;
-    background-position: center;
-    background-repeat: no-repeat;
-    align-content: center;
 }
 
 #caption {

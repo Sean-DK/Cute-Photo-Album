@@ -1,9 +1,13 @@
+html {
+    background-color: #9e165a;
+}
+
 body {
     font-family: 'Open Sans', sans-serif;
-    background-color: #efefef;
 }
 
 .main-content {
-    padding-top: 60px;
+    padding-top: 20px; 
     color: #333;
+    background-color: #9e165a;
 }

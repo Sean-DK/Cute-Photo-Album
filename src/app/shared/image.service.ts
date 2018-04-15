@@ -13,10 +13,10 @@ export class ImageService {
 }
 
 const IMAGES = [
-    { 'id': 1, 'category': 'boats', 'caption': 'View from a boat', 'url': 'assets/img/boat_01.png' },
-    { 'id': 2, 'category': 'boats', 'caption': 'View from a boat', 'url': 'assets/img/boat_02.png' },
-    { 'id': 3, 'category': 'camping', 'caption': 'View from a camp', 'url': 'assets/img/camp_01.png' },
-    { 'id': 4, 'category': 'camping', 'caption': 'View from a camp', 'url': 'assets/img/camp_02.png' },
-    { 'id': 5, 'category': 'library', 'caption': 'View from a library', 'url': 'assets/img/library_01.png' },
-    { 'id': 6, 'category': 'library', 'caption': 'View from a library', 'url': 'assets/img/library_02.png' }
+    { 'id': 1, 'category': 'boats', 'url': 'assets/img/boat_01.png' },
+    { 'id': 2, 'category': 'boats', 'url': 'assets/img/boat_02.png' },
+    { 'id': 3, 'category': 'camping', 'url': 'assets/img/camp_01.png' },
+    { 'id': 4, 'category': 'camping', 'url': 'assets/img/camp_02.png' },
+    { 'id': 5, 'category': 'library', 'url': 'assets/img/library_01.png' },
+    { 'id': 6, 'category': 'library', 'url': 'assets/img/library_02.png' }
 ];

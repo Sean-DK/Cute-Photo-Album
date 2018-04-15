@@ -1,9 +1,16 @@
-<h2>{{ title }}</h2>
 <div class="row">
-    <button class="btn btn-lg btn-info" [class.active]="filterBy=='all'" (click)="filterBy='all'">All</button>
-    <button class="btn btn-lg btn-info" [class.active]="filterBy=='boats'" (click)="filterBy='boats'">Boats</button>
-    <button class="btn btn-lg btn-info" [class.active]="filterBy=='camping'" (click)="filterBy='camping'">Camping</button>
-    <button class="btn btn-lg btn-info" [class.active]="filterBy=='library'" (click)="filterBy='library'">Library</button>
+    <button class="btn btn-warning btn-lg" [class.active]="filterBy=='all'" (click)="filterBy='all'">All</button>
+    <button class="btn btn-warning btn-lg" [class.active]="filterBy=='indians-game'" (click)="filterBy='indians-game'">Indian's Game</button>
+    <button class="btn btn-warning btn-lg" [class.active]="filterBy=='beach-date'" (click)="filterBy='beach-date'">Beach Date</button>
+    <button class="btn btn-warning btn-lg" [class.active]="filterBy=='j-alexanders'" (click)="filterBy='j-alexanders'">J. Alexander's</button>
+    <button class="btn btn-warning btn-lg" [class.active]="filterBy=='toledo-zoo'" (click)="filterBy='toledo-zoo'">Toledo Zoo</button>
+    <button class="btn btn-warning btn-lg" [class.active]="filterBy=='the-galaxy-dinner'" (click)="filterBy='the-galaxy-dinner'">The Galaxy Dinner</button>
+    <button class="btn btn-warning btn-lg" [class.active]="filterBy=='halloween-2017'" (click)="filterBy='halloween-2017'">Halloween 2017</button>
+    <button class="btn btn-warning btn-lg" [class.active]="filterBy=='akron-comic-con'" (click)="filterBy='akron-comic-con'">Akron Comic Con</button>
+    <button class="btn btn-warning btn-lg" [class.active]="filterBy=='christmas'" (click)="filterBy='christmas'">Christmas</button>
+    <button class="btn btn-warning btn-lg" [class.active]="filterBy=='canadian-new-years'" (click)="filterBy='canadian-new-years'">Canadian New Years</button>
+    <button class="btn btn-warning btn-lg" [class.active]="filterBy=='phantom-in-columbus'" (click)="filterBy='phantom-in-columbus'">Phantom in Columbus</button>
+    
     <ul id="thumbnailsList">
         <li *ngFor="let image of (visibleImages | imageFilter:filterBy)">
             <a [routerLink] = "['/image', image.id]">

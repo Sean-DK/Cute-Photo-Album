@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, OnInit} from '@angular/core';
 import { ImageService } from '../shared/image.service';
 import { ActivatedRoute } from '@angular/router';
 
